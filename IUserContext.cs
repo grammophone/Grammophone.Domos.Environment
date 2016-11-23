@@ -8,7 +8,8 @@ namespace Grammophone.Domos.Environment
 {
 	/// <summary>
 	/// Bridges the authentication environment to the 
-	/// business layer.
+	/// logic layer. Used when the logic session dicovers the current user
+	/// instead of having her specified.
 	/// </summary>
 	public interface IUserContext
 	{
