@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{2C981885-79DB-49EE-BC62-429A6164807D}</ProjectGuid>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyTitle>Grammophone.Domos.Environmnent</AssemblyTitle>
     <Product>Grammophone.Domos.Environmnent</Product>
     <Copyright>Copyright ©  2016</Copyright>
@@ -14,11 +14,6 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Net.Http" />
-  </ItemGroup>
 	<ItemGroup>
 		<None Remove=".git" />
 		<None Remove=".gitignore" />
